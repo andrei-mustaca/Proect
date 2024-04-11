@@ -1,0 +1,7 @@
+C:\Users\andre\OneDrive\Рабочий стол\Курсач\Курсовая\Курсовая\bin\Debug\Курсовая.exe.config
+C:\Users\andre\OneDrive\Рабочий стол\Курсач\Курсовая\Курсовая\bin\Debug\Курсовая.exe
+C:\Users\andre\OneDrive\Рабочий стол\Курсач\Курсовая\Курсовая\bin\Debug\Курсовая.pdb
+C:\Users\andre\OneDrive\Рабочий стол\Курсач\Курсовая\Курсовая\obj\Debug\Курсовая.csprojAssemblyReference.cache
+C:\Users\andre\OneDrive\Рабочий стол\Курсач\Курсовая\Курсовая\obj\Debug\Курсовая.csproj.CoreCompileInputs.cache
+C:\Users\andre\OneDrive\Рабочий стол\Курсач\Курсовая\Курсовая\obj\Debug\Курсовая.exe
+C:\Users\andre\OneDrive\Рабочий стол\Курсач\Курсовая\Курсовая\obj\Debug\Курсовая.pdb
