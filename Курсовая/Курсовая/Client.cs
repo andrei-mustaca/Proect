@@ -68,7 +68,7 @@ namespace Курсовая
         /// </summary>
         public void SaveClients()
         {
-            using (StreamWriter writer=new StreamWriter(@"C:\Users\andre\OneDrive\Рабочий стол\Курсач\Клиенты.txt",true))
+            using (StreamWriter writer=new StreamWriter(@"C:\Users\andre\OneDrive\Документы\GitHub\Proect\Клиенты.txt",true))
             {
                 writer.WriteLine($"{Key};{FIO};{Number_pasport};{Where};{Number};{Place};{Kol_vo_days};{Date.ToString("yyyy-MM-dd")};");
             }

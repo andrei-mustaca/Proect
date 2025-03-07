@@ -69,7 +69,7 @@ namespace Курсовая
         /// </summary>
         public void SaveHotel()
         {
-            using (StreamWriter writer=new StreamWriter(@"C:\Users\andre\OneDrive\Рабочий стол\Курсач\Номера.txt",true))
+            using (StreamWriter writer=new StreamWriter(@"C:\Users\andre\OneDrive\Документы\GitHub\Proect\Номера.txt",true))
             {
                 writer.WriteLine($"{Number};{Floor};{Type};{Cost_per_day}");
             }

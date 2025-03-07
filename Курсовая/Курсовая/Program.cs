@@ -37,7 +37,7 @@ namespace Курсовая
                         try
                         {
                             Console.Clear();
-                            using (StreamReader reader = new StreamReader(@"C:\Users\andre\OneDrive\Рабочий стол\Курсач\Служащие.txt"))
+                            using (StreamReader reader = new StreamReader(@"C:\Users\andre\OneDrive\Документы\GitHub\Proect\Служащие.txt"))
                             {
                                 string line;
                                 while ((line = reader.ReadLine()) != null)
@@ -45,7 +45,7 @@ namespace Курсовая
                                     list3.Add(Employee.ReaderEmployee(line));
                                 }
                             }
-                            using (StreamReader reader = new StreamReader(@"C:\Users\andre\OneDrive\Рабочий стол\Курсач\Клиенты.txt"))
+                            using (StreamReader reader = new StreamReader(@"C:\Users\andre\OneDrive\Документы\GitHub\Proect\Клиенты.txt"))
                             {
                                 string line;
                                 while ((line = reader.ReadLine()) != null)
@@ -53,7 +53,7 @@ namespace Курсовая
                                     list2.Add(Client.ReaderClient(line));
                                 }
                             }
-                            using (StreamReader reader = new StreamReader(@"C:\Users\andre\OneDrive\Рабочий стол\Курсач\Номера.txt"))
+                            using (StreamReader reader = new StreamReader(@"C:\Users\andre\OneDrive\Документы\GitHub\Proect\Номера.txt"))
                             {
                                 string line;
                                 while ((line = reader.ReadLine()) != null)

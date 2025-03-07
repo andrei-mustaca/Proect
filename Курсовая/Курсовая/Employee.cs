@@ -64,7 +64,7 @@ namespace Курсовая
         /// </summary>
         public void SaveEmployees()
         {
-            using (StreamWriter writer=new StreamWriter(@"C:\Users\andre\OneDrive\Рабочий стол\Курсач\Служащие.txt", true))
+            using (StreamWriter writer=new StreamWriter(@"C:\Users\andre\OneDrive\Документы\GitHub\Proect\Служащие.txt", true))
             {
                 writer.WriteLine($"{Key};{FIO};{floors[0]};{floors[1]};{floors[2]};" +
                     $"{floors[3]};{floors[4]};{floors[5]};" +
@@ -126,12 +126,12 @@ namespace Курсовая
             Console.Write("Введите номер служащего,которого необходимо удалить:");
             int delete = Convert.ToInt32(Console.ReadLine());
             employees = employees.Where(x=>x.Key!=delete).ToList();
-            string[] lines = File.ReadAllLines(@"C:\Users\andre\OneDrive\Рабочий стол\Курсач\Служащие.txt");
+            string[] lines = File.ReadAllLines(@"C:\Users\andre\OneDrive\Документы\GitHub\Proect\Служащие.txt");
             if(delete-1>=0&&delete-1<lines.Length)
             {
                 lines = lines.Where((line, index) => index != delete - 1).ToArray();
             }
-            File.WriteAllLines(@"C:\Users\andre\OneDrive\Рабочий стол\Курсач\Служащие.txt", lines);
+            File.WriteAllLines(@"C:\Users\andre\OneDrive\Документы\GitHub\Proect\Служащие.txt", lines);
         }
     }
 }
